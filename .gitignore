@@ -1,0 +1,21 @@
+# Ignore node modules
+node_modules/
+
+# Ignore Python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+env/
+venv/
+
+# Ignore logs and build
+*.log
+dist/
+build/
+*.DS_Store
+
+# Ignore secrets
+.env
+
+# VS Code
+.vscode/
